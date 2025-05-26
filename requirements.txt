@@ -1,0 +1,4 @@
+tensorflow
+streamlit 
+streamlit_option_menu
+opencv-python
