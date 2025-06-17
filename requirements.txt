@@ -2,3 +2,10 @@ tensorflow
 streamlit 
 streamlit_option_menu
 opencv-python
+flask 
+pyngrok 
+diffusers 
+transformers 
+accelerate 
+torch 
+torchvision
