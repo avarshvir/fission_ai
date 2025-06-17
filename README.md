@@ -74,7 +74,19 @@ pip install -r requirements.txt
 ```
 
 3. Set up ngrok
+```
 - get ngrok token after setting your account on ngrok.
 - add your token 
     - NGROK_AUTH_TOKEN = "your ngrok token" in main_model.ipynb google colab
 - run the all cell of main_model.ipynb
+- get ngrok url from colab output and place the url in main.py file that act as backend
+    - NGROK_URL = "ngrok_url" 
+
+```
+
+4. Make Google Drive Link Public
+```
+- create a folder name "GeneratedImages" inside mydrive of google drive.
+- make "GeneratedImages" folder public and copy the link.
+- place public link in main.py file gdrive_link = "public drive link" 2 times.
+```
