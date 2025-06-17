@@ -62,18 +62,18 @@ User (Streamlit App)
 ---
 ## ⚙️ Installation & Setup
 ```⚠️ Note: This project uses Google Colab as the backend runtime, tunneled using ngrok.```
-1. Clone the repository
+### 1. Clone the repository
 ```
 git clone https://github.com/avarshvir/fission_ai.git
 cd fission_ai
 ```
 
-2. Install dependencies
+### 2. Install dependencies
 ```
 pip install -r requirements.txt
 ```
 
-3. Set up ngrok
+### 3. Set up ngrok
 ```
 - get ngrok token after setting your account on ngrok.
 - add your token 
@@ -84,7 +84,7 @@ pip install -r requirements.txt
 
 ```
 
-4. Make Google Drive Link Public
+### 4. Make Google Drive Link Public
 ```
 - create a folder name "GeneratedImages" inside mydrive of google drive.
 - make "GeneratedImages" folder public and copy the link.
