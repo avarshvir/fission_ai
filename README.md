@@ -57,3 +57,23 @@ User (Streamlit App)
                           [Google Colab Runtime]
                                │
                          [Returns ZIP / PDF / MP4]
+
+```
+---
+## ⚙️ Installation & Setup
+```⚠️ Note: This project uses Google Colab as the backend runtime, tunneled using ngrok.```
+1. Clone the repository
+```
+git clone https://github.com/avarshvir/fission_ai.git
+cd fission_ai
+```
+
+2. Install dependencies
+```
+pip install -r requirements.txt
+```
+
+3. Set up ngrok
+- get ngrok token after setting your account on ngrok.
+- add your token 
+    - NGROK_AUTH_TOKEN = "your ngrok token"
