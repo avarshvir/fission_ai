@@ -3,9 +3,8 @@
 
 ## 🌐 `CODE_OF_CONDUCT.md`
 
-```markdown
 # Contributor Covenant Code of Conduct
-```
+
 ## Our Pledge
 
 We as contributors and maintainers of **Fission AI** pledge to make participation in our community a harassment-free experience for everyone — regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, race, religion, or sexual identity and orientation.
