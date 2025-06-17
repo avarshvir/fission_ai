@@ -97,3 +97,19 @@ after cd fission_ai
 cd frontend
 streamlit run main.py
 ```
+
+#### 6. Choose your option and see results
+```
+Text-to-Image
+Text-to-Video
+Text-to-Text
+Text-to Deep Research
+```
+
+---
+```
+⚠️ Note:
+make sure you download dependencies, setup your ngrok account, public your "GeneratedImages" folder of Google Drive, and choose T4 GPU of Google Colab.
+```
+
+
