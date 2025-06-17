@@ -145,6 +145,11 @@ fission_ai/
 │   ├── main_model.ipynb      # main file for google colab
 |   ├── model.txt
 |   └── ok8.ipynb
+|
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── NOTICE
 ├── README.md
 └── requirements.txt
 ```
