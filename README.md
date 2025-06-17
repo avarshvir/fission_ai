@@ -149,4 +149,38 @@ fission_ai/
 └── requirements.txt
 ```
 
+---
+## 💡 Future Plans
+- Add user authentication & plans (Free, Pro, AI+, Enterprise)
+
+- Provide cloud-based persistent storage
+
+- Rate-limited access to premium APIs
+
+- Launch SaaS version under Jaiho Labs (Subsidiary of Jaiho Digital)
+
+--- 
+## 🤝 Contributing
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repo
+
+2. Create your feature branch (git checkout -b feature-name)
+
+3. Commit your changes (git commit -am 'Add new feature')
+
+4. Push to the branch (git push origin feature-name)
+
+5. Open a pull request
+
+---
+## 📬 Contact
+- Author: Arshvir 
+
+--- 
+## 🌟 Star this repo to support the project!
+
+---
+
+Let me know if you’d like a `LICENSE` file, `requirements.txt`, or deployment script to go along with this!
 
