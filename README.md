@@ -110,7 +110,43 @@ Text-to Deep Research
 
 ## ⚠️ Note:
 ```
-make sure you download dependencies, setup your ngrok account, public your "GeneratedImages" folder of Google Drive, and choose T4 GPU of Google Colab.
+make sure you download dependencies, setup your ngrok account, 
+public your "GeneratedImages" folder of Google Drive, 
+and choose T4 GPU of Google Colab.
+```
+
+---
+
+## 📦 Folder Structure
+```
+fission_ai/
+│
+├── assets
+|   ├── output
+|   ├── final_narrated_video   # Stitch images/audio to final video
+|   └── output.zip             # Stitch images/audio to final video
+|
+├── backend/
+│   └── backend.txt
+|
+├── data/
+│   └── dataset_links.txt
+│
+├── frontend/
+│   ├── images
+|   ├── resized_images
+|   ├── videos
+|   ├── keyword_search.py
+|   ├── main.py               # Actual Main file
+|   ├── summarizer.py
+|   └── text_query.py
+|
+├── model/
+│   ├── main_model.ipynb      # main file for google colab
+|   ├── model.txt
+|   └── ok8.ipynb
+├── README.md
+└── requirements.txt
 ```
 
 
