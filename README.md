@@ -1,74 +1,59 @@
-# Fission AI
-#### 🧠 Text ↔️ Images ↔️ Video Generator
+# 🚀 Fission AI
 
-This project enables users to **enter a text prompt**, which is transformed into a **series of AI-generated images**, then combined into a **slideshow-style video**, and finally **explained through NLP-based narration with synthesized audio**. It blends the power of **deep learning**, **computer vision**, and **transformer-based NLP models** to deliver an immersive visual and audio storytelling experience.
-
----
-
-## 🚀 Features
-
-- ✍️ **Text-to-Image Generation**: Produces 5–6 unique images using deep learning models based on user input.
-- 🧠 **NLP-Based Description**: Analyzes the generated images and creates a meaningful explanation using advanced NLP techniques.
-- 🎬 **Image-to-Video Conversion**: Combines images into a smooth, slideshow-style visual sequence using OpenCV.
-- 🔊 **Text-to-Speech Narration**: Converts the generated description into speech for audio playback.
-- 🖥️ **Streamlit Interface**: Interactive and user-friendly frontend for prompt input and result display.
-- 🔙 **Flask Backend**: Manages API endpoints and logic for integrating various components.
-- ☁️ **Colab Integration**: Trains and hosts models efficiently using Google Colab.
-- 💾 **Scalable Storage Ready**: Prepared for MySQL integration to manage future user data and session history.
+**Fission AI** is a powerful, multimodal AI platform that combines state-of-the-art models and tools to transform text into images, videos, research reports, and more. It is designed for creators, educators, developers, and researchers who want seamless AI-powered content generation — all from a single interface.
 
 ---
 
-## 🧰 Tech Stack
+## 🔮 Key Features
 
-- **Frontend**: [Streamlit](https://streamlit.io/)
-- **Backend**: [Flask](https://flask.palletsprojects.com/)
-- **Model Training & Hosting**: Google Colab
-- **Image Processing**: OpenCV
-- **NLP & Transformers**: Hugging Face Transformers, RAG (Retrieval-Augmented Generation)
-- **Speech Synthesis**: [pyttsx3](https://pypi.org/project/pyttsx3/) or similar TTS tool
-- **Database (Future-Ready)**: MySQL
+- **🖼️ Text to Image**  
+  Generate up to 5 high-quality images using **Stable Diffusion**.  
+  Captions generated with **BLIP**.
+
+- **🎬 Text to Video**  
+  Automatically stitches images into a video with generated narration using **gTTS**.
+
+- **💬 Text to Text**  
+  Uses **Gemma 3B (via Ollama)** to generate or rewrite text with LLM capabilities.
+
+- **📚 Text to Deep Research**  
+  - Extracts keywords
+  - Searches the web using **DuckDuckGo API**
+  - Summarizes findings using **Gemma 3B**
+  - Generates a downloadable **PDF report**
 
 ---
 
-## 📦 Setup and Installation
+## 🧠 Tech Stack
 
-### Clone the Repository
+| Category             | Tools / Frameworks                         |
+|----------------------|---------------------------------------------|
+| Backend              | Flask, Python, ngrok, Google Colab         |
+| Frontend             | Streamlit                                  |
+| Machine Learning     | PyTorch, BLIP, Stable Diffusion, Gemma 3B  |
+| Text-to-Speech       | gTTS                                        |
+| LLM Integration      | Ollama (Gemma 3B)                           |
+| Web Search           | DuckDuckGo API                             |
+| Video & Audio Tools  | FFmpeg, MoviePy                            |
+| IDE / Development    | VS Code                                    |
+| Hosting / Tunnel     | ngrok                                       |
+
+---
+
+## 🏗️ System Architecture
 
 ```bash
-git clone https://github.com/avarshvir/fission_ai.git
-cd fission_ai
-```
-
-### Create and Activate Virtual Environment
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-### Install required Python packages
-```bash
-pip install -r requirements.txt
-```
-
-## Future Enhancements
-
-* **Real-time Video Generation:** Instead of a static video, explore dynamic video generation based on the image sequence.
-* **Interactive Image Editing:** Allow users to modify the generated images or provide feedback for refinement.
-* **More Advanced NLP:** Implement more sophisticated NLP techniques for deeper image understanding and more nuanced explanations.
-* **User Accounts and Data Storage:** Integrate MySQL to manage user accounts, save generated images and prompts, and personalize the experience.
-* **Improved Audio Quality:** Explore different text-to-speech engines for higher-quality and more natural-sounding audio.
-* **Integration with External APIs:** Connect to other AI services or APIs to enhance the functionality.
-* **Performance Optimization:** Optimize the image generation, video creation, and NLP processing for faster response times.
-
-## Credits and Acknowledgements
-
-- **Libraries and Frameworks:** TensorFlow, Scikit-Learn, Transformers, OpenCV, pyttsx3
-- **ML Tech:** RAG's, CNN, GAN's
-
-## License
-
-* yet to specify
-
----
-    
-
+User (Streamlit App)
+      │
+      ▼
+[Frontend: Streamlit] ─────────┐
+                               ▼
+        [Backend: Flask server (ngrok tunnel)]
+                               │
+           ┌────────────┬──────┼───────────┬────────────┐
+           ▼            ▼      ▼           ▼            ▼
+[Stable Diffusion] [BLIP] [gTTS] [Gemma 3B] [DuckDuckGo API]
+                               │
+                          [Google Colab Runtime]
+                               │
+                         [Returns ZIP / PDF / MP4]
