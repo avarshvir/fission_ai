@@ -107,8 +107,9 @@ Text-to Deep Research
 ```
 
 ---
+
+## ⚠️ Note:
 ```
-⚠️ Note:
 make sure you download dependencies, setup your ngrok account, public your "GeneratedImages" folder of Google Drive, and choose T4 GPU of Google Colab.
 ```
 
