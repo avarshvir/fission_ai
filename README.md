@@ -76,4 +76,5 @@ pip install -r requirements.txt
 3. Set up ngrok
 - get ngrok token after setting your account on ngrok.
 - add your token 
-    - NGROK_AUTH_TOKEN = "your ngrok token"
+    - NGROK_AUTH_TOKEN = "your ngrok token" in main_model.ipynb google colab
+- run the all cell of main_model.ipynb
