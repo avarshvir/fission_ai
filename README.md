@@ -1,3 +1,17 @@
+![Apache License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
+![Flask](https://img.shields.io/badge/Backend-Flask-green.svg)
+![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-orange.svg)
+![Status](https://img.shields.io/badge/Status-In_Development-yellow.svg)
+![Platform](https://img.shields.io/badge/Platform-Google_Colab-lightgrey.svg)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)
+![Made with ♥](https://img.shields.io/badge/Made_with-%E2%99%A5-red.svg)
+
+[![GitHub issues](https://img.shields.io/github/issues/avarshvir/fission_ai)](https://github.com/avarshvir/fission_ai/issues)
+[![GitHub forks](https://img.shields.io/github/forks/avarshvir/fission_ai)](https://github.com/avarshvir/fission_ai/network)
+[![GitHub stars](https://img.shields.io/github/stars/avarshvir/fission_ai)](https://github.com/avarshvir/fission_ai/stargazers)
+[![GitHub last commit](https://img.shields.io/github/last-commit/avarshvir/fission_ai)](https://github.com/avarshvir/fission_ai)
+
 # 🚀 Fission AI
 
 **Fission AI** is a powerful, multimodal AI platform that combines state-of-the-art models and tools to transform text into images, videos, research reports, and more. It is designed for creators, educators, developers, and researchers who want seamless AI-powered content generation — all from a single interface.
