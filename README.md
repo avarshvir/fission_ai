@@ -90,3 +90,10 @@ pip install -r requirements.txt
 - make "GeneratedImages" folder public and copy the link.
 - place public link in main.py file gdrive_link = "public drive link" 2 times.
 ```
+
+#### 5. Launch the Streamlit frontend
+```
+after cd fission_ai
+cd frontend
+streamlit run main.py
+```
