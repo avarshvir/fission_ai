@@ -197,9 +197,5 @@ Contributions are welcome! Please follow these steps:
 - Author: Arshvir 
 
 --- 
-## 🌟 Star this repo to support the project!
-
----
-
-Let me know if you’d like a `LICENSE` file, `requirements.txt`, or deployment script to go along with this!
+## 🌟 Star this repo to support the project! 😊
 
